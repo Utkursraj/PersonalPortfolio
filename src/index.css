@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* If you want smooth scrolling, add it below */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-[#0a0a0a] text-slate-200;
+}
