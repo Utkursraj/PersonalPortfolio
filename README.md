@@ -1,16 +1,35 @@
-# React + Vite
+# 🌐 Modern Full-Stack Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my professional portfolio website, designed to showcase my journey as a **Full Stack Developer** and **2024 ECE Graduate**. Built with a focus on performance, modularity, and modern CSS practices.
 
-Currently, two official plugins are available:
+### 🔗 Live Demo: [https://utkurs-portfolio.onrender.com]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+### 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework:** [React.js](https://react.js.org/) (Vite)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) (CSS-first engine)
+- **Icons:** [React Icons](https://react-icons.github.io/react-icons/)
+- **Deployment:** [Render](https://render.com/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📦 Features
+
+- **Modular Architecture:** Clean component-based structure for high maintainability.
+- **Tailwind v4 Integration:** Utilizing the latest CSS-first configuration and high-performance JIT engine.
+- **Fully Responsive:** Optimized for all screen sizes, from mobile to ultra-wide monitors.
+- **Project Showcase:** Dynamic mapping of projects from a centralized data store.
+
+---
+
+### 📂 Folder Structure
+
+```text
+src/
+├── components/      # Reusable UI components (Navbar, Hero, etc.)
+├── data/            # Project details and constants
+├── assets/          # Static images and icons
+├── App.jsx          # Main application orchestrator
+└── index.css        # Tailwind v4 entry point
